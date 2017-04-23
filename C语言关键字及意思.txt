@@ -1,0 +1,6 @@
+1 : typedef
+关键字typedef用于给已有的数据类型制定一个新的名称，实际上，typedef创建一个同义词，例如下面的语句：
+typedef int integer;
+讲integer作为int 的同义词。然后，您便可以使用intteger来定义int变量，如下面的范例所示：
+integer count;
+请注意：typedef 并不创建新的数据类型，而只是让您能够将不同的名称用于一个预定义的数据类型。typedef最常用于聚集数据类型，聚集数据类型是由多种数据类型组合而成的。
